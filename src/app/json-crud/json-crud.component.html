@@ -1,0 +1,5 @@
+
+<div *ngFor="let post of posts">
+<h2 (click)="click(post.id)">{{post | json}}</h2>
+</div>
+<button (click)="onClick()">click me to add data</button>
